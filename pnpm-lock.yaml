@@ -169,11 +169,11 @@ importers:
         specifier: ^3.5.18
         version: 3.5.18(typescript@5.9.2)
       vue-router:
-        specifier: https://pkg.pr.new/vue-router@90ec562
-        version: https://pkg.pr.new/vue-router@90ec562(vue@3.5.18(typescript@5.9.2))
+        specifier: https://pkg.pr.new/vue-router@3c06a16
+        version: https://pkg.pr.new/vue-router@3c06a16(vue@3.5.18(typescript@5.9.2))
       vue-router-mock:
         specifier: ^2.0.0
-        version: 2.0.0(vue-router@https://pkg.pr.new/vue-router@90ec562(vue@3.5.18(typescript@5.9.2)))(vue@3.5.18(typescript@5.9.2))
+        version: 2.0.0(vue-router@https://pkg.pr.new/vue-router@3c06a16(vue@3.5.18(typescript@5.9.2)))(vue@3.5.18(typescript@5.9.2))
       vue-tsc:
         specifier: ^3.0.5
         version: 3.0.5(typescript@5.9.2)
@@ -261,8 +261,8 @@ importers:
         specifier: ^3.5.18
         version: 3.5.18(typescript@5.9.2)
       vue-router:
-        specifier: https://pkg.pr.new/vue-router@90ec562
-        version: https://pkg.pr.new/vue-router@90ec562(vue@3.5.18(typescript@5.9.2))
+        specifier: https://pkg.pr.new/vue-router@3c06a16
+        version: https://pkg.pr.new/vue-router@3c06a16(vue@3.5.18(typescript@5.9.2))
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^6.0.1
@@ -6794,8 +6794,8 @@ packages:
     peerDependencies:
       vue: ^3.2.0
 
-  vue-router@https://pkg.pr.new/vue-router@90ec562:
-    resolution: {tarball: https://pkg.pr.new/vue-router@90ec562}
+  vue-router@https://pkg.pr.new/vue-router@3c06a16:
+    resolution: {tarball: https://pkg.pr.new/vue-router@3c06a16}
     version: 4.5.1
     peerDependencies:
       vue: ^3.2.0
@@ -8764,7 +8764,8 @@ snapshots:
   '@rolldown/binding-win32-x64-msvc@1.0.0-beta.33':
     optional: true
 
-  '@rolldown/pluginutils@1.0.0-beta.10-commit.87188ed': {}
+  '@rolldown/pluginutils@1.0.0-beta.10-commit.87188ed':
+    optional: true
 
   '@rolldown/pluginutils@1.0.0-beta.29': {}
 
@@ -9227,7 +9228,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.27.4
       '@babel/plugin-transform-typescript': 7.27.1(@babel/core@7.27.4)
-      '@rolldown/pluginutils': 1.0.0-beta.10-commit.87188ed
+      '@rolldown/pluginutils': 1.0.0-beta.33
       '@vue/babel-plugin-jsx': 1.4.0(@babel/core@7.27.4)
       vite: 6.3.5(@types/node@24.3.0)(jiti@2.4.2)(lightningcss@1.29.3)(terser@5.43.1)(yaml@2.8.1)
       vue: 3.5.18(typescript@5.9.2)
@@ -14404,17 +14405,17 @@ snapshots:
     dependencies:
       vue: 3.5.18(typescript@5.9.2)
 
-  vue-router-mock@2.0.0(vue-router@https://pkg.pr.new/vue-router@90ec562(vue@3.5.18(typescript@5.9.2)))(vue@3.5.18(typescript@5.9.2)):
+  vue-router-mock@2.0.0(vue-router@https://pkg.pr.new/vue-router@3c06a16(vue@3.5.18(typescript@5.9.2)))(vue@3.5.18(typescript@5.9.2)):
     dependencies:
       vue: 3.5.18(typescript@5.9.2)
-      vue-router: https://pkg.pr.new/vue-router@90ec562(vue@3.5.18(typescript@5.9.2))
+      vue-router: https://pkg.pr.new/vue-router@3c06a16(vue@3.5.18(typescript@5.9.2))
 
   vue-router@4.5.1(vue@3.5.18(typescript@5.9.2)):
     dependencies:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.18(typescript@5.9.2)
 
-  vue-router@https://pkg.pr.new/vue-router@90ec562(vue@3.5.18(typescript@5.9.2)):
+  vue-router@https://pkg.pr.new/vue-router@3c06a16(vue@3.5.18(typescript@5.9.2)):
     dependencies:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.18(typescript@5.9.2)
